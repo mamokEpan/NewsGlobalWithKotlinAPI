@@ -28,11 +28,15 @@ class MainActivity : AppCompatActivity() {
     private fun initRecyclerView() {
 
         adapter = NewsAdapter {
-            //onclick
+            moveActivity(it)
         }
         rvNews.layoutManager = LinearLayoutManager(this)
 
         rvNews.adapter = adapter
+    }
+
+    private fun moveActivity(news: ArticlesItem) {
+
     }
 
     private fun getNews() {
