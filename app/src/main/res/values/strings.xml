@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyPortofolioNews</string>
+    <string name="news_title">Mandiri News</string>
+    <string name="lates_news">Berita Terkini</string>
+    <string name="source_news">Sumber Berita</string>
+    <string name="date_news">Tanggal Berita</string>
+    <string name="all_news">Semua Berita</string>
+</resources>
