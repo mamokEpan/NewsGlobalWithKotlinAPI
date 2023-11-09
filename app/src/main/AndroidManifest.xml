@@ -15,6 +15,10 @@
         android:theme="@style/Theme.MyPortofolioNews"
         tools:targetApi="31">
         <activity
+            android:name=".activity_about"
+            android:label="About Activity"
+            android:exported="true" />
+        <activity
             android:name=".UI.detail.DetailActivity"
             android:exported="false" />
         <activity

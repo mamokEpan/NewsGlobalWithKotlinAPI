@@ -59,6 +59,5 @@ dependencies {
     implementation ("com.github.bumptech.glide:compiler:4.12.0")
     //loading
     implementation("com.facebook.shimmer:shimmer:0.5.0")
-    //parcelize
-    implementation ("org.jetbrains.kotlin.plugin.parcelize:1.9.20-RC2")
 }
+
